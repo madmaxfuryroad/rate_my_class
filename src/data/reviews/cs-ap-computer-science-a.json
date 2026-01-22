@@ -1,0 +1,66 @@
+{
+  "classId": "cs-ap-computer-science-a",
+  "reviews": [
+    {
+      "id": "872f1d03-bc47-46ae-a712-4cb0a14dcac0",
+      "timestamp": "2026-01-22T02:42:08.554Z",
+      "metrics": {
+        "difficulty": 8,
+        "hoursPerWeek": 7,
+        "learningStyle": {
+          "memorization": 54,
+          "practice": 46,
+          "projects": 0
+        },
+        "assessmentMix": {
+          "tests": 40,
+          "essays": 10,
+          "labs": 10,
+          "presentations": 10,
+          "homework": 20,
+          "projects": 10
+        },
+        "skillRequirements": {
+          "timeManagement": 5,
+          "writing": 5,
+          "math": 5,
+          "problemSolving": 5,
+          "memorization": 5,
+          "criticalThinking": 5
+        }
+      },
+      "responses": {
+        "whoWouldThrive": "testing_________________",
+        "whatSurprised": "testing_________________",
+        "skillsThatMattered": "testing_________________",
+        "additionalThoughts": "testing_________________"
+      }
+    }
+  ],
+  "aggregatedMetrics": {
+    "averageDifficulty": 8,
+    "averageHoursPerWeek": 7,
+    "totalReviews": 1,
+    "learningStyle": {
+      "memorization": 54,
+      "practice": 46,
+      "projects": 0
+    },
+    "assessmentMix": {
+      "tests": 40,
+      "essays": 10,
+      "labs": 10,
+      "presentations": 10,
+      "homework": 20,
+      "projects": 10
+    },
+    "skillRequirements": {
+      "timeManagement": 5,
+      "writing": 5,
+      "math": 5,
+      "problemSolving": 5,
+      "memorization": 5,
+      "criticalThinking": 5
+    }
+  }
+}

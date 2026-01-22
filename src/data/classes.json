@@ -1,0 +1,614 @@
+{
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "color": "#5b8def",
+      "icon": "📐"
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "color": "#ff6b9d",
+      "icon": "📚"
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "color": "#d4a574",
+      "icon": "🏛️"
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "color": "#4fd1c5",
+      "icon": "🔬"
+    },
+    {
+      "id": "language",
+      "name": "World Language",
+      "color": "#8b7dd4",
+      "icon": "🌍"
+    },
+    {
+      "id": "arts",
+      "name": "Arts",
+      "color": "#ffa07a",
+      "icon": "🎨"
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science",
+      "color": "#00d9ff",
+      "icon": "💻"
+    },
+    {
+      "id": "physical-education",
+      "name": "Physical Education",
+      "color": "#90ee90",
+      "icon": "⚽"
+    }
+  ],
+  "classes": [
+    {
+      "id": "math-algebra-1",
+      "name": "Algebra 1",
+      "subject": "math",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "MATH-101",
+      "description": "Foundation course covering linear equations, inequalities, functions, and graphing. Essential for all future math courses.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "math-geometry",
+      "name": "Geometry",
+      "subject": "math",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "MATH-102",
+      "description": "Study of shapes, proofs, spatial reasoning, and geometric properties. Includes both theoretical and practical applications.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": ["Algebra 1"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "math-algebra-2",
+      "name": "Algebra 2",
+      "subject": "math",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "MATH-201",
+      "description": "Advanced algebraic concepts including polynomials, exponential functions, logarithms, and trigonometry basics.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Geometry"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "math-precalculus",
+      "name": "Pre-Calculus",
+      "subject": "math",
+      "school": "Lincoln High School",
+      "level": "honors",
+      "code": "MATH-301H",
+      "description": "Preparation for calculus with focus on advanced functions, trigonometry, vectors, and mathematical modeling.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Algebra 2"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "math-ap-calculus-ab",
+      "name": "AP Calculus AB",
+      "subject": "math",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "MATH-401AP",
+      "description": "College-level calculus covering limits, derivatives, integrals, and their applications. Prepares for AP exam.",
+      "metadata": {
+        "gradeLevel": 12,
+        "prerequisites": ["Pre-Calculus"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "math-ap-statistics",
+      "name": "AP Statistics",
+      "subject": "math",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "MATH-402AP",
+      "description": "Statistical reasoning, data analysis, probability, and inference. Highly applicable to real-world scenarios.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Algebra 2"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "english-9",
+      "name": "English 9",
+      "subject": "english",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "ENG-101",
+      "description": "Introduction to literary analysis through short stories, novels, poetry, and drama. Focus on essay writing and grammar.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "english-10",
+      "name": "English 10",
+      "subject": "english",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "ENG-102",
+      "description": "World literature with emphasis on cultural perspectives. Develops research and argumentative writing skills.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": ["English 9"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "english-11-american-lit",
+      "name": "American Literature",
+      "subject": "english",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "ENG-201",
+      "description": "Survey of American authors from colonial period to present. Analysis of historical context and literary movements.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["English 10"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "english-ap-lit",
+      "name": "AP English Literature",
+      "subject": "english",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "ENG-401AP",
+      "description": "College-level analysis of poetry, prose, and drama. Heavy reading load with sophisticated analytical essays.",
+      "metadata": {
+        "gradeLevel": 12,
+        "prerequisites": ["American Literature"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "english-ap-lang",
+      "name": "AP English Language",
+      "subject": "english",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "ENG-301AP",
+      "description": "Rhetoric and composition focused on non-fiction analysis. Develops persuasive and analytical writing skills.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["English 10"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "english-creative-writing",
+      "name": "Creative Writing",
+      "subject": "english",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "ENG-310",
+      "description": "Workshop-style class exploring fiction, poetry, and creative non-fiction. Emphasis on peer feedback and revision.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["English 10"],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "history-world-history",
+      "name": "World History",
+      "subject": "history",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "HIST-101",
+      "description": "Global history from ancient civilizations to modern times. Focus on cultural exchange and major historical movements.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "history-ap-world",
+      "name": "AP World History",
+      "subject": "history",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "HIST-101AP",
+      "description": "College-level world history with extensive document analysis and essay writing. Fast-paced content coverage.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "history-us-history",
+      "name": "US History",
+      "subject": "history",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "HIST-201",
+      "description": "American history from colonial era through present day. Required for graduation in most states.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["World History"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "history-ap-us-history",
+      "name": "AP US History",
+      "subject": "history",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "HIST-201AP",
+      "description": "Rigorous examination of American history with heavy emphasis on primary source analysis and DBQs.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["World History"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "history-government",
+      "name": "Government",
+      "subject": "history",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "HIST-301",
+      "description": "American government structure, political processes, and civics. Often includes current events discussions.",
+      "metadata": {
+        "gradeLevel": 12,
+        "prerequisites": [],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "history-economics",
+      "name": "Economics",
+      "subject": "history",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "HIST-302",
+      "description": "Introduction to microeconomics and macroeconomics. Practical applications to personal finance and markets.",
+      "metadata": {
+        "gradeLevel": 12,
+        "prerequisites": [],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "science-biology",
+      "name": "Biology",
+      "subject": "science",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "SCI-101",
+      "description": "Study of living organisms, cells, genetics, evolution, and ecology. Includes lab work and dissections.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "science-ap-biology",
+      "name": "AP Biology",
+      "subject": "science",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "SCI-101AP",
+      "description": "College-level biology with extensive lab work. Heavy content load covering molecular biology to ecosystems.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Biology", "Chemistry"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "science-chemistry",
+      "name": "Chemistry",
+      "subject": "science",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "SCI-201",
+      "description": "Study of matter, atomic structure, chemical reactions, and stoichiometry. Math-intensive with regular lab experiments.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": ["Algebra 1"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "science-ap-chemistry",
+      "name": "AP Chemistry",
+      "subject": "science",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "SCI-201AP",
+      "description": "Advanced chemistry with college-level rigor. Significant mathematical problem solving and complex lab reports.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Chemistry", "Algebra 2"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "science-physics",
+      "name": "Physics",
+      "subject": "science",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "SCI-301",
+      "description": "Classical mechanics, electricity, magnetism, and waves. Math-heavy with practical lab applications.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Algebra 2"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "science-ap-physics-1",
+      "name": "AP Physics 1",
+      "subject": "science",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "SCI-301AP",
+      "description": "Algebra-based physics covering mechanics, energy, and waves. Conceptual understanding with mathematical application.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Algebra 2"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "science-environmental",
+      "name": "Environmental Science",
+      "subject": "science",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "SCI-310",
+      "description": "Study of ecosystems, sustainability, and human environmental impact. Field work and community projects.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Biology"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "lang-spanish-1",
+      "name": "Spanish 1",
+      "subject": "language",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "LANG-101",
+      "description": "Introduction to Spanish language and culture. Focus on basic conversation, grammar, and vocabulary.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "lang-spanish-2",
+      "name": "Spanish 2",
+      "subject": "language",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "LANG-102",
+      "description": "Continued development of Spanish skills with more complex grammar and expanded vocabulary.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": ["Spanish 1"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "lang-spanish-3",
+      "name": "Spanish 3",
+      "subject": "language",
+      "school": "Lincoln High School",
+      "level": "honors",
+      "code": "LANG-201H",
+      "description": "Advanced Spanish with emphasis on literature, composition, and fluent conversation.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Spanish 2"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "lang-ap-spanish",
+      "name": "AP Spanish Language",
+      "subject": "language",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "LANG-301AP",
+      "description": "College-level Spanish emphasizing communication, cultural understanding, and authentic materials.",
+      "metadata": {
+        "gradeLevel": 12,
+        "prerequisites": ["Spanish 3"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "lang-french-1",
+      "name": "French 1",
+      "subject": "language",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "LANG-111",
+      "description": "Beginning French language and Francophone culture. Speaking, listening, reading, and writing skills.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "lang-french-2",
+      "name": "French 2",
+      "subject": "language",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "LANG-112",
+      "description": "Continued French study with increased emphasis on conversation and cultural exploration.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": ["French 1"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "arts-studio-art",
+      "name": "Studio Art",
+      "subject": "arts",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "ART-101",
+      "description": "Exploration of various art media including drawing, painting, and sculpture. Build foundational art skills.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "arts-ap-studio-art",
+      "name": "AP Studio Art",
+      "subject": "arts",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "ART-301AP",
+      "description": "Portfolio-based course developing sustained investigation and artistic voice. Requires significant independent work.",
+      "metadata": {
+        "gradeLevel": 12,
+        "prerequisites": ["Studio Art"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "arts-music-theory",
+      "name": "Music Theory",
+      "subject": "arts",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "MUS-201",
+      "description": "Study of musical structure, harmony, rhythm, and composition. Great for aspiring musicians.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": [],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "arts-band",
+      "name": "Concert Band",
+      "subject": "arts",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "MUS-101",
+      "description": "Performance-based class learning and performing diverse musical repertoire. Regular concerts and events.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "cs-intro-programming",
+      "name": "Introduction to Programming",
+      "subject": "computer-science",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "CS-101",
+      "description": "Learn programming fundamentals using Python. No prior experience required.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": [],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "cs-ap-computer-science-a",
+      "name": "AP Computer Science A",
+      "subject": "computer-science",
+      "school": "Lincoln High School",
+      "level": "ap",
+      "code": "CS-201AP",
+      "description": "College-level computer science using Java. Object-oriented programming, data structures, and algorithms.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Intro to Programming"],
+        "credits": 1.0
+      }
+    },
+    {
+      "id": "cs-web-development",
+      "name": "Web Development",
+      "subject": "computer-science",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "CS-210",
+      "description": "Build websites using HTML, CSS, and JavaScript. Create portfolio of web projects.",
+      "metadata": {
+        "gradeLevel": 11,
+        "prerequisites": ["Intro to Programming"],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "pe-fitness",
+      "name": "Physical Education",
+      "subject": "physical-education",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "PE-101",
+      "description": "Lifetime fitness activities, team sports, and health education. Required for graduation.",
+      "metadata": {
+        "gradeLevel": 9,
+        "prerequisites": [],
+        "credits": 0.5
+      }
+    },
+    {
+      "id": "pe-team-sports",
+      "name": "Team Sports",
+      "subject": "physical-education",
+      "school": "Lincoln High School",
+      "level": "standard",
+      "code": "PE-201",
+      "description": "Competitive team activities including basketball, soccer, volleyball, and flag football.",
+      "metadata": {
+        "gradeLevel": 10,
+        "prerequisites": [],
+        "credits": 0.5
+      }
+    }
+  ]
+}

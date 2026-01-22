@@ -1,0 +1,66 @@
+{
+  "classId": "math-ap-statistics",
+  "reviews": [
+    {
+      "id": "a8470991-d8cb-404f-9ab6-fe93fd549447",
+      "timestamp": "2026-01-22T02:44:39.992Z",
+      "metrics": {
+        "difficulty": 6,
+        "hoursPerWeek": 13,
+        "learningStyle": {
+          "memorization": 27,
+          "practice": 40,
+          "projects": 33
+        },
+        "assessmentMix": {
+          "tests": 40,
+          "essays": 10,
+          "labs": 10,
+          "presentations": 10,
+          "homework": 20,
+          "projects": 10
+        },
+        "skillRequirements": {
+          "timeManagement": 5,
+          "writing": 5,
+          "math": 5,
+          "problemSolving": 5,
+          "memorization": 5,
+          "criticalThinking": 5
+        }
+      },
+      "responses": {
+        "whoWouldThrive": "testing_________________",
+        "whatSurprised": "testing_________________",
+        "skillsThatMattered": "testing_________________",
+        "additionalThoughts": "testing_________________"
+      }
+    }
+  ],
+  "aggregatedMetrics": {
+    "averageDifficulty": 6,
+    "averageHoursPerWeek": 13,
+    "totalReviews": 1,
+    "learningStyle": {
+      "memorization": 27,
+      "practice": 40,
+      "projects": 33
+    },
+    "assessmentMix": {
+      "tests": 40,
+      "essays": 10,
+      "labs": 10,
+      "presentations": 10,
+      "homework": 20,
+      "projects": 10
+    },
+    "skillRequirements": {
+      "timeManagement": 5,
+      "writing": 5,
+      "math": 5,
+      "problemSolving": 5,
+      "memorization": 5,
+      "criticalThinking": 5
+    }
+  }
+}
