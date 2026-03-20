@@ -37,7 +37,7 @@
       "icon": "🎨"
     },
     {
-      "id": "computer-science",
+      "id": "pathways",
       "name": "Computer Science",
       "color": "#00d9ff",
       "icon": "💻"
@@ -543,7 +543,7 @@
     {
       "id": "cs-intro-programming",
       "name": "Introduction to Programming",
-      "subject": "computer-science",
+      "subject": "pathways",
       "school": "Lincoln High School",
       "level": "standard",
       "code": "CS-101",
@@ -557,7 +557,7 @@
     {
       "id": "cs-ap-computer-science-a",
       "name": "AP Computer Science A",
-      "subject": "computer-science",
+      "subject": "pathways",
       "school": "Lincoln High School",
       "level": "ap",
       "code": "CS-201AP",
@@ -571,7 +571,7 @@
     {
       "id": "cs-web-development",
       "name": "Web Development",
-      "subject": "computer-science",
+      "subject": "pathways",
       "school": "Lincoln High School",
       "level": "standard",
       "code": "CS-210",

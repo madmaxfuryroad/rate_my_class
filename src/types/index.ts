@@ -6,7 +6,7 @@ export type SubjectId =
   | 'science'
   | 'language'
   | 'arts'
-  | 'computer-science'
+  | 'pathways'
   | 'physical-education';
 
 export interface Subject {
