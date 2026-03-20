@@ -10,7 +10,6 @@ export default function Header() {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Browse', href: '/#classes' },
-    { label: 'About', href: '/about' },
   ];
 
   return (
@@ -48,11 +47,6 @@ export default function Header() {
             );
           })}
         </nav>
-
-        {/* CTA Button */}
-        <button className="hidden md:block px-6 py-2 rounded-lg bg-gradient-to-r from-accent-blue to-accent-purple text-white text-sm font-medium hover:shadow-lg hover:shadow-accent-blue/50 transition-all duration-200">
-          Get Started
-        </button>
 
         {/* Mobile menu button */}
         <button className="md:hidden text-text-primary hover:text-accent-blue">
