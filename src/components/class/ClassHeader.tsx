@@ -65,9 +65,6 @@ export default function ClassHeader({ classData, subject }: ClassHeaderProps) {
 
           {/* Metadata */}
           <div className="flex flex-wrap items-center gap-4 mb-6">
-            <div className="px-4 py-2 rounded-lg bg-background-secondary border border-border-accent text-text-secondary">
-              {classData.code}
-            </div>
             <div
               className="px-4 py-2 rounded-lg border font-medium"
               style={{
@@ -81,10 +78,6 @@ export default function ClassHeader({ classData, subject }: ClassHeaderProps) {
             <div className="text-text-muted flex items-center gap-2">
               <span>🎓</span>
               <span>Grade {classData.metadata.gradeLevel}</span>
-            </div>
-            <div className="text-text-muted flex items-center gap-2">
-              <span>📚</span>
-              <span>{classData.metadata.credits} Credit{classData.metadata.credits !== 1 ? 's' : ''}</span>
             </div>
           </div>
 

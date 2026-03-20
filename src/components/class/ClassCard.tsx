@@ -45,9 +45,6 @@ export default function ClassCard({ classData, index = 0 }: ClassCardProps) {
             {classData.name}
           </h3>
 
-          {/* Course code */}
-          <p className="text-sm text-text-muted mb-3">{classData.code}</p>
-
           {/* Description */}
           <p className="text-sm text-text-secondary leading-relaxed line-clamp-3 mb-4">
             {classData.description}
@@ -55,10 +52,6 @@ export default function ClassCard({ classData, index = 0 }: ClassCardProps) {
 
           {/* Metadata */}
           <div className="flex items-center gap-4 text-xs text-text-muted">
-            <div className="flex items-center gap-1">
-              <span>📚</span>
-              <span>{classData.metadata.credits} credit{classData.metadata.credits !== 1 ? 's' : ''}</span>
-            </div>
             <div className="flex items-center gap-1">
               <span>🎓</span>
               <span>Grade {classData.metadata.gradeLevel}</span>
