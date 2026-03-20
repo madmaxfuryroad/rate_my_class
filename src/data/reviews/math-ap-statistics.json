@@ -1,66 +1,30 @@
 {
   "classId": "math-ap-statistics",
-  "reviews": [
-    {
-      "id": "a8470991-d8cb-404f-9ab6-fe93fd549447",
-      "timestamp": "2026-01-22T02:44:39.992Z",
-      "metrics": {
-        "difficulty": 6,
-        "hoursPerWeek": 13,
-        "learningStyle": {
-          "memorization": 27,
-          "practice": 40,
-          "projects": 33
-        },
-        "assessmentMix": {
-          "tests": 40,
-          "essays": 10,
-          "labs": 10,
-          "presentations": 10,
-          "homework": 20,
-          "projects": 10
-        },
-        "skillRequirements": {
-          "timeManagement": 5,
-          "writing": 5,
-          "math": 5,
-          "problemSolving": 5,
-          "memorization": 5,
-          "criticalThinking": 5
-        }
-      },
-      "responses": {
-        "whoWouldThrive": "testing_________________",
-        "whatSurprised": "testing_________________",
-        "skillsThatMattered": "testing_________________",
-        "additionalThoughts": "testing_________________"
-      }
-    }
-  ],
+  "reviews": [],
   "aggregatedMetrics": {
-    "averageDifficulty": 6,
-    "averageHoursPerWeek": 13,
-    "totalReviews": 1,
+    "averageDifficulty": 0,
+    "averageHoursPerWeek": 0,
+    "totalReviews": 0,
     "learningStyle": {
-      "memorization": 27,
-      "practice": 40,
-      "projects": 33
+      "memorization": 0,
+      "practice": 0,
+      "projects": 0
     },
     "assessmentMix": {
-      "tests": 40,
-      "essays": 10,
-      "labs": 10,
-      "presentations": 10,
-      "homework": 20,
-      "projects": 10
+      "tests": 0,
+      "essays": 0,
+      "labs": 0,
+      "presentations": 0,
+      "homework": 0,
+      "projects": 0
     },
     "skillRequirements": {
-      "timeManagement": 5,
-      "writing": 5,
-      "math": 5,
-      "problemSolving": 5,
-      "memorization": 5,
-      "criticalThinking": 5
+      "timeManagement": 0,
+      "writing": 0,
+      "math": 0,
+      "problemSolving": 0,
+      "memorization": 0,
+      "criticalThinking": 0
     }
   }
 }
