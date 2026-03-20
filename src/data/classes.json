@@ -38,13 +38,13 @@
     },
     {
       "id": "pathways",
-      "name": "Computer Science",
+      "name": "Pathways",
       "color": "#00d9ff",
       "icon": "💻"
     },
     {
       "id": "pe",
-      "name": "Physical Education",
+      "name": "PE",
       "color": "#90ee90",
       "icon": "⚽"
     }
