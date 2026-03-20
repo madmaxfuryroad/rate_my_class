@@ -43,7 +43,7 @@
       "icon": "💻"
     },
     {
-      "id": "physical-education",
+      "id": "pe",
       "name": "Physical Education",
       "color": "#90ee90",
       "icon": "⚽"
@@ -585,7 +585,7 @@
     {
       "id": "pe-fitness",
       "name": "Physical Education",
-      "subject": "physical-education",
+      "subject": "pe",
       "school": "Lincoln High School",
       "level": "standard",
       "code": "PE-101",
@@ -599,7 +599,7 @@
     {
       "id": "pe-team-sports",
       "name": "Team Sports",
-      "subject": "physical-education",
+      "subject": "pe",
       "school": "Lincoln High School",
       "level": "standard",
       "code": "PE-201",

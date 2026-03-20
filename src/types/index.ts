@@ -7,7 +7,7 @@ export type SubjectId =
   | 'language'
   | 'arts'
   | 'pathways'
-  | 'physical-education';
+  | 'pe';
 
 export interface Subject {
   id: SubjectId;

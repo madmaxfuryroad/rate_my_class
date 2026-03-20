@@ -89,7 +89,7 @@ function getSubjectIcon(subject: string): string {
     language: '🌍',
     arts: '🎨',
     'pathways': '💻',
-    'physical-education': '⚽',
+    'pe': '⚽',
   };
   return icons[subject] || '📖';
 }
